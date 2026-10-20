@@ -11,9 +11,12 @@
         <!--responsive website will adapt to different screen sizes, ex. mobile, desktop-->
         <!--scalable = website can be adapted without changing everything-->
         <style>
-            body {background-color: rgb(152, 234, 152);}
-            h1 {color: red;}
-            p {color: blue;}
+            body {background-color: rgb(173, 173, 173);}
+            h1 {color: rgb(237, 233, 251);}
+            h2 {color: rgb(237, 233, 251);}
+            h6 {color: rgb(237, 233, 251);}
+            p {color: rgb(204, 238, 240);}
+            a {color: rgb(201, 245, 4);}
         </style>
 
         <link rel="stylesheet" href="mystyle.css"> <!-- # link to external style sheets or to add a favicon to your website. -->
@@ -27,9 +30,38 @@
             }
          </script>
     </head>
-    <body>
-        <h1>Heading 1</h1>
-        <p>paragraph</p>
+    <body background="Assets/img/starhmel.gif">
+
+
+        
+        <!--A block-level element always starts on a new line - anything after will be printed on a new line-->
+        <!--In-line element - part of a sentence in a paragraph-->
+
+        <h1>Heading 1</h1> extra text
+        <h2>Heading 2</h2>
+        <h6>Heading 6</h6>
+        <hr>
+        <p>
+        <strong>important text</strong><br><br>
+        <strike>bad text. It's in jail.</strike>
+        <p>some <b>bold</b> text. Paragraph. <u><b><i>italicized</i></b></u>
+        regular text  <b><u><sup>floaty!</sup></b></u></p>
+        <br><br>
+        <a href="http://www.mcgill.ca" target="blank">McGill Website</a>
+        <a href="Assets/Pages/linkpage_test.html" title="Linky link">Internal</a>
+        <a href="Assets/Pages/about.html" title="Linky link">About</a>
+
+        <!--title is important for accessibility-->
+        </p>
+        <img src="Assets/img/n-gamesj.gif" alt="Games"><br>
+        <iframe src="linkpage_test.html" title="description" width="500" height="200">iframe</iframe>
+        <img src="Assets/img/commiepinkoflaminco_2.jpg"
+            width="472"
+            height="355"
+            alt="Commie Pink Flamingo">
+        
+
+        
 
     </body>
 </html>
